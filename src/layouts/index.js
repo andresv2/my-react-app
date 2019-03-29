@@ -14,7 +14,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-   
+   <Header />
       {children()}
   </div>
 )
@@ -28,7 +28,7 @@ export default Layout
 export const query = graphql`
   query SiteTitleQuery {
     site {
-      siteMetadata {
+      siteMetadata { 
         title
       }
     }
