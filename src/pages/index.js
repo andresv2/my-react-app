@@ -41,7 +41,7 @@ const IndexPage = () => (
       </svg>
      </div>
     </div>
-    <div clasName="Cards">
+    <div className="Cards">
     <h2>11 Courses, more coming</h2>
     <div className="CardGroup">
         <Card
